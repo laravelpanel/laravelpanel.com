@@ -325,7 +325,7 @@ body {
   color: #525252;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
-  background: #fff url('/assets/img/cloud-bar.png') repeat-x;
+  background-color: #fff;
   padding-top: 10px;
   -webkit-font-smoothing: antialiased; }
 
@@ -1278,7 +1278,7 @@ nav.main {
           color: #80878c; }
   .panel.ecosystem {
     padding: 150px 0 75px;
-    background: url('/assets/img/laravel-tucked.png') center top no-repeat; }
+    background: #fff center top no-repeat; }
     .panel.ecosystem > h1, .panel.ecosystem > p {
       margin: 0 0 20px 0;
       text-align: center; }
