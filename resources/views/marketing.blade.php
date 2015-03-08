@@ -21,7 +21,7 @@ home
 
 <section class="col-xs-12 content-main">
     <h1 class="animated fadeInDown slogan1"> Laravel panel  </h1>
-    <h1 class="animated fadeInDown slogan2">  an easy cool and powerful panel based on Laravel framework </h1>
+    <h1 class="animated fadeInDown slogan2">  an easy cool and powerful admin panel based on Laravel framework </h1>
     
     <div class="dashboard-box">
         
