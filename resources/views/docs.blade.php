@@ -4,7 +4,7 @@
 <nav id="slide-menu" class="slide-menu" role="navigation">
 	
 	<ul class="slide-main-nav">
-		<li><a href="/">Home</a></li>
+		<li><a href="{{ url('/') }}">Home</a></li>
 		@include('partials.main-nav')
 	</ul>
 

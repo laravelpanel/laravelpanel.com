@@ -11,12 +11,12 @@
 	<!--[if lte IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<link rel="stylesheet" href="/assets/css/laravel.css">
+	<link rel="stylesheet" href="{{ url('assets/css/laravel.css') }}">
 	
     <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="stylesheet" href="{{ url('assets/css/main.css') }}">
     
-    <script src="/assets/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="{{ url('assets/bower_components/jquery/dist/jquery.min.js') }}"></script>
     <script>
         $(function(){
             $('.content-main').height($(window).height()-100);
@@ -49,9 +49,9 @@
 	@yield('content')
     
 
-	<script src="/assets/js/laravel.js"></script>
-	<script src="/assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="/assets/js/viewport-units-buggyfill.js"></script>
+	<script src="{{ url('assets/js/laravel.js') }}"></script>
+	<script src="{{ url('assets/bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+	<script src="{{ url('assets/js/viewport-units-buggyfill.js') }}"></script>
 	<script>window.viewportUnitsBuggyfill.init();</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
