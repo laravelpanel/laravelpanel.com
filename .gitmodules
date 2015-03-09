@@ -1,0 +1,3 @@
+[submodule "resources/docs/master"]
+	path = resources/docs/master
+	url = https://github.com/laravelpanel/docs.git
