@@ -1,4 +1,10 @@
- body{
+ 
+
+
+
+
+
+body{
     font-family: Abel,sans-serif;
      color: @color-1 ;
  }
@@ -11,6 +17,16 @@
 }
 
 
+
+/*-- animation delay --*/
+.generate-delay(20,1);
+.generate-delay(@n, @i: 18) when (@i =< @n) {
+  .delay-@{i} { 
+    animation-delay: 100ms * @i;
+    -webkit-animation-delay: 110ms * @i;
+  } 
+  .generate-delay(@n, (@i + 1));
+}
 
 
 
@@ -74,3 +90,91 @@
     
     
 }
+
+.feature-page
+{
+    text-align: center;
+}
+.feature-holder
+{
+    
+    line,circle{
+        stroke:#555;
+        fill:#888;
+        animation-delay: 990ms;
+        -webkit-animation-delay: 990ms;
+        
+    }
+    .path{
+      stroke-dasharray: 800;
+      stroke-dashoffset: 800;
+        &.animation{
+            animation: dash 1s linear forwards;
+            -webkit-animation: dash 1s linear forwards;
+        }
+        
+    }
+
+    @keyframes dash {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+    @-webkit-keyframes dash {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+    
+    
+    .feature-title{
+        color: @color-2;
+    }
+    feature-desc{
+        color: #eee;
+    }
+}
+
+h2.heading-title{
+            border-bottom: 1px solid #eee;
+            padding:8px;
+            font-size: 62px;
+        margin-bottom: 50px;
+    }
+
+
+.gap{height: 200px;}
+.install-page
+{
+    margin-top: 50px;
+    .step
+    {
+        position: relative;
+        text-align: left;
+        font-size: 17px;
+        padding: 7px;
+        opacity:0;
+        &.active{
+            opacity:1;
+        }
+        
+        .num{
+            font-size: 65px;
+            color: @color-2;
+            opacity: .7;
+        }
+        
+        .text{
+            padding: 11px;
+            min-height: 94px;
+        }
+        
+        .syntaxhighlighter{
+           border: 1px solid #eee;
+            border-radius: 2px;
+            padding: 7px;
+            font-size: 14px !important;
+        }
+    }
+}
+

@@ -51,7 +51,21 @@
 
 	<script src="{{ url('assets/js/laravel.js') }}"></script>
 	<script src="{{ url('assets/bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+	<script src="{{ url('assets/bower_components/jquery-waypoints/lib/jquery.waypoints.min.js') }}"></script>
 	<script src="{{ url('assets/js/viewport-units-buggyfill.js') }}"></script>
+    
+    <script type="text/javascript" src="{{ url('assets/syntaxhighlighter/scripts/shCore.js') }}"></script>
+    <script type="text/javascript" src="{{ url('assets/syntaxhighlighter/scripts/shAutoloader.js') }}"></script>
+    <script type="text/javascript" src="{{ url('assets/syntaxhighlighter/scripts/shBrushPhp.js') }}"></script>
+    <script type="text/javascript" src="{{ url('assets/syntaxhighlighter/scripts/shBrushBash.js') }}"></script>
+    <link href="{{ url('assets/syntaxhighlighter//styles/shCore.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ url('assets/syntaxhighlighter//styles/shThemeDefault.css') }}" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+         SyntaxHighlighter.all()
+    </script>
+    
+    <script src="{{ url('assets/js/script.js') }}"></script>
+    
 	<script>window.viewportUnitsBuggyfill.init();</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
