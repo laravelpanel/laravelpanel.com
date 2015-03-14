@@ -19,6 +19,7 @@ home
 <section class="col-xs-12 content-main">
     <h1 class="animated fadeInDown slogan1"> Laravel panel  </h1>
     <h1 class="animated fadeInDown slogan2">  an easy cool and powerful panel based on Laravel framework </h1>
+    <a href="#" class="demo-link">Demo</a>
     
     <div class="dashboard-box">
         
@@ -40,7 +41,7 @@ home
     <div class="container feature-holder">
         
         
-            <svg class="feature-line-svg w1" height="210" width="500" viewBox="0 0 800 800">
+            <svg class="feature-line-svg w1" height="210" width="100%" viewBox="0 0 800 800">
               <line class="path"   x1="50%" y1="10" x2="50%" y2="800" stroke-linecap="butt" style="stroke-width:1px;width:1px;" />
               <circle cx="50%" cy="775" r="24" stroke="black" stroke-width="0"  />
             </svg>
@@ -50,7 +51,7 @@ home
         
             
         
-            <svg class="feature-line-svg  w2" height="210" width="500" viewBox="0 0 800 800">
+            <svg class="feature-line-svg  w2" height="210" width="100%" viewBox="0 0 800 800">
               <line class="path"   x1="50%" y1="10" x2="50%" y2="800" stroke-linecap="butt" style="stroke-width:1px;width:1px;" />
               <circle cx="50%" cy="775" r="24" stroke="black" stroke-width="0"  />
             </svg>
@@ -60,7 +61,7 @@ home
         
         
         
-            <svg class="feature-line-svg  w3" height="210" width="500" viewBox="0 0 800 800">
+            <svg class="feature-line-svg  w3" height="210" width="100%" viewBox="0 0 800 800">
               <line class="path"   x1="50%" y1="10" x2="50%" y2="800" stroke-linecap="butt" style="stroke-width:1px;width:1px;" />
               <circle cx="50%" cy="775" r="24" stroke="black" stroke-width="0"  />
             </svg>
@@ -70,7 +71,7 @@ home
         
         
         
-            <svg class="feature-line-svg w4" height="210" width="500" viewBox="0 0 800 800">
+            <svg class="feature-line-svg w4" height="210" width="100%" viewBox="0 0 800 800">
               <line class="path"   x1="50%" y1="10" x2="50%" y2="800" stroke-linecap="butt" style="stroke-width:1px;width:1px;" />
               <circle cx="50%" cy="775" r="24" stroke="black" stroke-width="0"  />
             </svg>
@@ -90,10 +91,10 @@ home
     <!---------install--------->
     <div class="install-page" id="installing">
         
-        <h2 class="heading-title">Instalation</h2>
+        <div class="heading-title"><h2>Instalation</h2></div>
         
         <div class="col-xs-12 col-md-6 step animated delay-1">
-            <div class="col-xs-1 num">1</div>
+            <div class="col-xs-2 col-md-1 num">1</div>
             <div class="col-xs-10 text">
                  First you need to create a laravel 5 (or laravel 4.2) project.<br>
                 Add our package to require section of composer<br>
@@ -109,7 +110,7 @@ home
         </div>
          
         <div class="col-xs-12 col-md-6 step animated delay-3">
-            <div class="col-xs-1 num">2</div>
+            <div class="col-xs-2 col-md-1 num">2</div>
             <div class="col-xs-10 text">
                  Add the ServiceProvider of the package to the list of providers in the config/app.php file
             </div>
@@ -122,7 +123,7 @@ home
          
         <div class="clearfix"></div>
         <div class="col-xs-12 col-md-6 step animated delay-5">
-            <div class="col-xs-1 num">3</div>
+            <div class="col-xs-2 col-md-1 num">3</div>
             <div class="col-xs-10 text">
                  Run the following command in order to publish configs, views and assets.
             </div>
@@ -134,7 +135,7 @@ home
         </div>
         
         <div class="col-xs-12 col-md-6 step animated delay-7">
-            <div class="col-xs-1 num">4</div>
+            <div class="col-xs-2 col-md-1 num">4</div>
             <div class="col-xs-10 text">
                  Go to your domain.com/public/panel and you can login with the following username and password 
             </div>
@@ -152,9 +153,9 @@ home
      <!---------build CRUD--------->
     <div class="install-page">
         
-        <h2 class="heading-title">build CRUD</h2>
-        <div class="col-xs-12 col-md-6 step animated delay-5">
-            <div class="col-xs-1 num">1</div>
+        <div class="heading-title"><h2>build CRUD</h2></div>
+        <div class="col-xs-12 col-md-6 col-xs-offset-0 col-md-offset-3 step animated delay-5">
+            <div class="col-xs-2 col-md-1 num">1</div>
             <div class="col-xs-10 text">
                  Run the following command in order to publish configs, views and assets.
             </div>
@@ -164,26 +165,58 @@ home
             php artisan panel:install
             </pre></div>
         </div>
-        <div class="col-xs-12 col-md-6 step animated delay-5">
-            <div class="col-xs-1 num">2</div>
-            <div class="col-xs-10 text">
-                 Run the following command in order to publish configs, views and assets.
-            </div>
-            <div class="col-xs-12 col-md-11 col-xs-offset-0 col-md-offset-0"><pre class="brush:bash;auto-links:false;toolbar:false" contenteditable="false">
-            
-            
-            php artisan panel:install
-            </pre></div>
-        </div>
+        <div class="clear-fix"></div>
+        
         
     </div>
-    
 
-<div class="install-page">
+    
+<br><br><br><br><br><br><br><br>
+<div class="team-box ">
+    <div class="heading-title"><h2 >our team</h2></div>
+    <div class="clear-fix"></div>
+        <div class="row ">
+            
+            <div class="team-holder col-xs-12 col-xs-offset-0  col-md-3 col-md-offset-0 ">
+                <div class="bg-holder col-xs-12 col-md-8 col-md-offset-2"><div class="bg"></div>
+                    <img class="img-responsive" src="assets/img/hamid-reza-salimian.JPG" />
+                </div>
+                <div class="title col-xs-12">Hamid Reza Salimian</div>
+                <div class="desc col-xs-12">Front-End Developer</div>
+            </div>
+            
+            <div class="team-holder col-xs-12 col-xs-offset-0  col-md-3 col-md-offset-0 ">
+                <div class="bg-holder col-xs-12 col-md-8 col-md-offset-2"><div class="bg"></div>
+                    <img class="img-responsive" src="assets/img/ali-aboutalebi.jpg" />
+                </div>
+                <div class="title col-xs-12">Ali Reza Aboutalebi</div>
+                <div class="desc col-xs-12">Front-End Developer</div>
+            </div>
+            
+            <div class="team-holder col-xs-12 col-xs-offset-0  col-md-3 col-md-offset-0 ">
+                <div class="bg-holder col-xs-12 col-md-8 col-md-offset-2"><div class="bg"></div>
+                    <img class="img-responsive" src="assets/img/hamid-reza-salimian.JPG" />
+                </div>
+                <div class="title col-xs-12">Hamid Reza Salimian</div>
+                <div class="desc col-xs-12">Front-End Developer</div>
+            </div>
+            
+            <div class="team-holder col-xs-12 col-xs-offset-0  col-md-3 col-md-offset-0 ">
+                <div class="bg-holder col-xs-12 col-md-8 col-md-offset-2"><div class="bg"></div>
+                    <img class="img-responsive" src="assets/img/hamid-reza-salimian.JPG" />
+                </div>
+                <div class="title col-xs-12">Hamid Reza Salimian</div>
+                <div class="desc col-xs-12">Front-End Developer</div>
+            </div>
+            
+            
+            
+        </div>
         
-        <h2 class="heading-title">our team</h2>
     
 </div>
+
+
 
 
 
