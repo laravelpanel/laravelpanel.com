@@ -44,7 +44,7 @@ class DocsController extends Controller {
 			return redirect('docs/'.DEFAULT_VERSION.'/'.$version, 301);
 		}
 
-		$content = $this->docs->get($version, $page ?: 'installation');
+		$content = $this->docs->get($version, $page ?: 'automatic-installation');
 
 		$title = (new Crawler($content))->filterXPath('//h1');
 
