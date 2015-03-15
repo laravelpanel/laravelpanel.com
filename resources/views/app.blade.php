@@ -11,10 +11,32 @@
 	<!--[if lte IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<link rel="stylesheet" href="{{ url('assets/css/laravel.css') }}">
+    
+<!--favicon-->
+<link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="assets/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="assets/img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+    
+    
+	
 	
     <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="{{ url('assets/css/main.css') }}">
+	
     
     <script src="{{ url('assets/bower_components/jquery/dist/jquery.min.js') }}"></script>
     <script>
@@ -27,26 +49,39 @@
 </head>
 <body class="@yield('body-class', 'docs') language-php">
 
-	<span class="overlay"></span>
-
-	<nav class="main">
-		<div class="container">
-
-			<div class="responsive-sidebar-nav">
-				<a href="#" class="toggle-slide menu-link btn">&#9776;</a>
-			</div>
-
-			@if (Request::is('docs*') && isset($currentVersion))
-				@include('partials.switcher')
-			@endif
-
-			<ul class="main-nav">
-				@include('partials.main-nav')
-			</ul>
-		</div>
-	</nav>
+                
+    
+    
+                <nav class="navbar  navbar-default">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                       <div class="logo col-xs-12 col-md-3">
+                            <a href="#"><img class="logo" alt="laravel panel" src="{{ url('assets/img/laravel-panel-logo.png') }}" /></a>
+                        </div>
+                      </div>
+                      <div id="navbar" class="navbar-collapse collapse">
+                        
+                        <ul class="nav navbar-nav navbar-right">
+                          <li><a href="#">Demo </a></li>
+                          <li><a href="#">Documention </a></li>
+                          <li><a href="#">Instalation </a></li>
+                          <li><a href="#">About Us </a></li>
+                        </ul>
+                      </div><!--/.nav-collapse -->
+                    </div><!--/.container-fluid -->
+                  </nav>
 
 	@yield('content')
+    
+    <footer>
+        Powered by <a href="http://www.serverfire.org">Serverfire Team</a>
+    </footer>
     
 
 	<script src="{{ url('assets/js/laravel.js') }}"></script>
