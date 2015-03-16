@@ -17,8 +17,8 @@ home
 
 
 <section class="col-xs-12 content-main">
-    <h1 class="animated fadeInDown slogan1"> Laravel panel  </h1>
-    <h1 class="animated fadeInDown slogan2">  an easy cool and powerful panel based on Laravel framework </h1>
+    <h1 class="animated fadeInDown slogan1"> Laravel Panel  </h1>
+    <h1 class="animated fadeInDown slogan2"> An easy, cool and powerful panel based on Laravel framework </h1>
     <a href="#" class="demo-link">Demo</a>
     
     <div class="dashboard-box">
@@ -34,9 +34,9 @@ home
 
 <section class="col-xs-12 feature-page">
     <br><br><br>
-    <h4 class="animated fadeInDown slogan1">  evry powerful  projects need admin panel which should be easy , beautiful and customizable </h1>
+    <h4 class="animated fadeInDown slogan1">  Every powerful project needs an admin panel which should be easy, beautiful and customizable </h1>
     
-    <h3 class="animated fadeInDown slogan1">  so ... why use laravel panel ? </h1>
+    <h3 class="animated fadeInDown slogan1">  So ... Why use Laravel Panel ? </h1>
     
     <div class="container feature-holder">
         
@@ -45,8 +45,8 @@ home
               <line class="path"   x1="50%" y1="10" x2="50%" y2="800" stroke-linecap="butt" style="stroke-width:1px;width:1px;" />
               <circle cx="50%" cy="775" r="24" stroke="black" stroke-width="0"  />
             </svg>
-            <h3 class="feature-title"> Build in admin interface </h3>
-            <h4 class="feature-desc">login , logout change password , dashboard , forgot password</h4>
+            <h3 class="feature-title"> Built-in Admin Interface </h3>
+            <h4 class="feature-desc">Login, Logout, Change Password, Dashboard, Forgot Password</h4>
         
         
             
@@ -56,7 +56,7 @@ home
               <circle cx="50%" cy="775" r="24" stroke="black" stroke-width="0"  />
             </svg>
             <h3 class="feature-title">CRUD Generator </h3>
-            <h4 class="feature-desc">easy to add entity and its CRUD with simple command</h4>
+            <h4 class="feature-desc">Easy to add entity and its CRUD with a simple command</h4>
         
         
         
@@ -65,7 +65,7 @@ home
               <line class="path"   x1="50%" y1="10" x2="50%" y2="800" stroke-linecap="butt" style="stroke-width:1px;width:1px;" />
               <circle cx="50%" cy="775" r="24" stroke="black" stroke-width="0"  />
             </svg>
-            <h3 class="feature-title">import/export  </h3>
+            <h3 class="feature-title">Import/Export  </h3>
             <h4 class="feature-desc">import/export records of each entity</h4>
         
         
@@ -75,8 +75,8 @@ home
               <line class="path"   x1="50%" y1="10" x2="50%" y2="800" stroke-linecap="butt" style="stroke-width:1px;width:1px;" />
               <circle cx="50%" cy="775" r="24" stroke="black" stroke-width="0"  />
             </svg>
-            <h3 class="feature-title">Language based  </h3>
-            <h4 class="feature-desc">the panel has english italian  language</h4>
+            <h3 class="feature-title">Language Based  </h3>
+            <h4 class="feature-desc">The Panel supports english, italian and armenian languages and it's really easy to add support for your native language</h4>
         
         
         
@@ -91,7 +91,7 @@ home
     <!---------install--------->
     <div class="install-page" id="installing">
         
-        <div class="heading-title"><h2>Instalation</h2></div>
+        <div class="heading-title"><h2>Installation</h2></div>
         
         <div class="col-xs-12 col-md-6 step animated delay-1">
             <div class="col-xs-2 col-md-1 num">1</div>
@@ -153,16 +153,16 @@ home
      <!---------build CRUD--------->
     <div class="install-page">
         
-        <div class="heading-title"><h2>build CRUD</h2></div>
+        <div class="heading-title"><h2>Build the CRUD</h2></div>
         <div class="col-xs-12 col-md-6 col-xs-offset-0 col-md-offset-3 step animated delay-5">
             <div class="col-xs-2 col-md-1 num">1</div>
             <div class="col-xs-10 text">
-                 Run the following command in order to publish configs, views and assets.
+                 You can run just a single command to build a CRUD :
             </div>
             <div class="col-xs-12 col-md-11 col-xs-offset-0 col-md-offset-0"><pre class="brush:bash;auto-links:false;toolbar:false" contenteditable="false">
             
             
-            php artisan panel:install
+            php artisan panel:crud entity-name
             </pre></div>
         </div>
         <div class="clear-fix"></div>
@@ -173,13 +173,13 @@ home
     
 <br><br><br><br><br><br><br><br>
 <div class="team-box ">
-    <div class="heading-title"><h2 >our team</h2></div>
+    <div class="heading-title"><h2 >Our Team</h2></div>
     <div class="clear-fix"></div>
         <div class="row ">
             
             <div class="team-holder col-xs-12 col-xs-offset-0  col-md-3 col-md-offset-0 ">
                 <div class="bg-holder col-xs-12 col-md-8 col-md-offset-2"><div class="bg"></div>
-                    <img class="img-responsive" src="assets/img/hamid-reza-salimian.JPG" />
+                    <img class="img-responsive" src="assets/img/hamid-reza-salimian.jpg" />
                 </div>
                 <div class="title col-xs-12">Hamid Reza Salimian</div>
                 <div class="desc col-xs-12">Front-End Developer</div>
@@ -190,23 +190,23 @@ home
                     <img class="img-responsive" src="assets/img/ali-aboutalebi.jpg" />
                 </div>
                 <div class="title col-xs-12">Ali Reza Aboutalebi</div>
-                <div class="desc col-xs-12">Front-End Developer</div>
+                <div class="desc col-xs-12">Web Developer</div>
             </div>
             
             <div class="team-holder col-xs-12 col-xs-offset-0  col-md-3 col-md-offset-0 ">
                 <div class="bg-holder col-xs-12 col-md-8 col-md-offset-2"><div class="bg"></div>
-                    <img class="img-responsive" src="assets/img/hamid-reza-salimian.JPG" />
+                    <img class="img-responsive" src="assets/img/siavash-izadkhasti.jpg" />
                 </div>
-                <div class="title col-xs-12">Hamid Reza Salimian</div>
-                <div class="desc col-xs-12">Front-End Developer</div>
+                <div class="title col-xs-12">Siavash Izadkhasti</div>
+                <div class="desc col-xs-12">Web Developer</div>
             </div>
             
             <div class="team-holder col-xs-12 col-xs-offset-0  col-md-3 col-md-offset-0 ">
                 <div class="bg-holder col-xs-12 col-md-8 col-md-offset-2"><div class="bg"></div>
-                    <img class="img-responsive" src="assets/img/hamid-reza-salimian.JPG" />
+                    <img class="img-responsive" src="assets/img/alenoosh-baghumian.jpg" />
                 </div>
-                <div class="title col-xs-12">Hamid Reza Salimian</div>
-                <div class="desc col-xs-12">Front-End Developer</div>
+                <div class="title col-xs-12">Alenoosh Baghumian</div>
+                <div class="desc col-xs-12">Web Developer</div>
             </div>
             
             
