@@ -62,7 +62,7 @@
                           <span class="icon-bar"></span>
                         </button>
                        <div class="logo col-xs-12 col-md-3">
-                            <a href="#"><img class="logo" alt="laravel panel" src="{{ url('assets/img/laravel-panel-logo.png') }}" /></a>
+                            <a href="/"><img class="logo" alt="laravel panel" src="{{ url('assets/img/laravel-panel-logo.png') }}" /></a>
                         </div>
                       </div>
                       <div id="navbar" class="navbar-collapse collapse">
@@ -80,7 +80,7 @@
 	@yield('content')
     
     <footer>
-        Powered by <a href="http://www.serverfire.org">Serverfire Team</a>
+        Copyright © <a href="http://www.serverfire.net">Serverfire</a>
     </footer>
     
 
