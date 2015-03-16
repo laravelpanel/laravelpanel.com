@@ -79,7 +79,7 @@
 	@yield('content')
     
     <footer>
-        Powered by <a href="http://www.serverfire.org">Serverfire Team</a>
+        Copyright © <a href="http://www.serverfire.net">Serverfire</a>
     </footer>
     
 

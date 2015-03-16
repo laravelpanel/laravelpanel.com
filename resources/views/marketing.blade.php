@@ -18,7 +18,7 @@ home
 
 <section class="col-xs-12 content-main">
     <h1 class="animated fadeInDown slogan1"> Laravel Panel  </h1>
-    <h1 class="animated fadeInDown slogan2"> An easy, cool and powerful panel based on Laravel framework </h1>
+    <h1 class="animated fadeInDown slogan2"> An easy, cool and powerful Admin Panel based on Laravel framework </h1>
     <a href="http://demo.serverfire.net" target="_blank" class="demo-link">Demo</a>
     
     <div class="dashboard-box">
@@ -88,7 +88,7 @@ home
 </section>
 
 
-    <!---------install--------->
+    <!---------install-------->
     <div class="install-page" id="installing">
         
         <div class="heading-title"><h2>Installation</h2></div>
@@ -125,7 +125,7 @@ home
         <div class="col-xs-12 col-md-6 step animated delay-5">
             <div class="col-xs-2 col-md-1 num">3</div>
             <div class="col-xs-10 text">
-                 Run the following command in order to publish configs, views and assets.
+                 Run the following command in order to migrate and publish configs, views and assets.
             </div>
             <div class="col-xs-12 col-md-11 col-xs-offset-0 col-md-offset-0"><pre class="brush:bash;auto-links:false;toolbar:false" contenteditable="false">
             
@@ -137,7 +137,7 @@ home
         <div class="col-xs-12 col-md-6 step animated delay-7">
             <div class="col-xs-2 col-md-1 num">4</div>
             <div class="col-xs-10 text">
-                 Go to your domain.com/public/panel and you can login with the following username and password 
+                 Go to your domain.com/panel and you can login with the following username and password 
             </div>
             <div class="col-xs-12 col-md-11 col-xs-offset-0 col-md-offset-0"><pre class="brush:bash;auto-links:false;toolbar:false" contenteditable="false">
             user        : admin@change.me
@@ -150,7 +150,7 @@ home
     <div class="gap col-xs-hidden"></div>
     
     
-     <!---------build CRUD--------->
+     <!---------build CRUD-------->
     <div class="install-page">
         
         <div class="heading-title"><h2>Build the CRUD</h2></div>
