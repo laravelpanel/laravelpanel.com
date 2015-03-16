@@ -19,7 +19,7 @@ home
 <section class="col-xs-12 content-main">
     <h1 class="animated fadeInDown slogan1"> Laravel Panel  </h1>
     <h1 class="animated fadeInDown slogan2"> An easy, cool and powerful panel based on Laravel framework </h1>
-    <a href="#" class="demo-link">Demo</a>
+    <a href="http://demo.serverfire.net" target="_blank" class="demo-link">Demo</a>
     
     <div class="dashboard-box">
         
@@ -173,6 +173,7 @@ home
     
 <br><br><br><br><br><br><br><br>
 <div class="team-box ">
+    <a name="our-team"></a>
     <div class="heading-title"><h2 >Our Team</h2></div>
     <div class="clear-fix"></div>
         <div class="row ">
