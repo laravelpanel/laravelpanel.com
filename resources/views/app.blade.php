@@ -62,16 +62,15 @@
                           <span class="icon-bar"></span>
                         </button>
                        <div class="logo col-xs-12 col-md-3">
-                            <a href="/"><img class="logo" alt="laravel panel" src="{{ url('assets/img/laravel-panel-logo.png') }}" /></a>
+                            <a href="{{ url('/') }}"><img class="logo" alt="laravel panel" src="{{ url('assets/img/laravel-panel-logo.png') }}" /></a>
                         </div>
                       </div>
                       <div id="navbar" class="navbar-collapse collapse">
                         
                         <ul class="nav navbar-nav navbar-right">
-                          <li><a href="#">Demo </a></li>
-                          <li><a href="#">Documention </a></li>
-                          <li><a href="#">Instalation </a></li>
-                          <li><a href="#">About Us </a></li>
+                          <li><a href="http://demo.serverfire.net" target="_blank">Demo </a></li>
+                          <li><a href="{{ url('/docs') }}">Documention </a></li>
+                          <li><a href="#our-team">About Us </a></li>
                         </ul>
                       </div><!--/.nav-collapse -->
                     </div><!--/.container-fluid -->
