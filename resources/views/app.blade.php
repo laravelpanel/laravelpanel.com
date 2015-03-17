@@ -42,6 +42,7 @@
     <script>
         $(function(){
             $('.content-main').height($(window).height()-100);
+            $('.docs-wrapper').css('min-height',$(window).height()-200);
         })
     </script>
     
