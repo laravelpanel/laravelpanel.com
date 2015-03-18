@@ -42,6 +42,7 @@
     <script>
         $(function(){
             $('.content-main').height($(window).height()-100);
+            $('.docs-wrapper').css('min-height',$(window).height()-200);
         })
     </script>
     
@@ -68,7 +69,7 @@
                       <div id="navbar" class="navbar-collapse collapse">
                         
                         <ul class="nav navbar-nav navbar-right">
-                          <li><a href="http://demo.serverfire.net" target="_blank">Demo </a></li>
+                          <li><a href="http://demo.serverfire.net/panel" target="_blank">Demo </a></li>
                           <li><a href="{{ url('/docs') }}">Documention </a></li>
                           <li><a href="{{ url('/#our-team') }}">About Us </a></li>
                         </ul>

@@ -8,6 +8,7 @@ body{
     font-family: Abel,sans-serif;
      color: @color-1 ;
     padding: 0;
+    height:100%;
  }
 
 
@@ -20,12 +21,24 @@ body{
         float: right;
     }
     
+    
+    
+    
     .logo
     {
         width: 110px;
         padding: 2px;
     }
 }
+.navbar-default .navbar-nav{
+        li a{
+            transition: all ease 250ms;
+            &:hover{
+                color           : @color-1 !important;
+                background-color: #f6f6f6 !important;
+            }
+        }
+    }
 
 
 
@@ -276,7 +289,7 @@ footer{
 
 
 @media (max-width: @screen-xs-max) { 
- 
+   
 
  .content-main .dashboard-box
     {
