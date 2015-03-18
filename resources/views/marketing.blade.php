@@ -19,7 +19,7 @@ home
 <section class="col-xs-12 content-main">
     <h1 class="animated fadeInDown slogan1"> Laravel Panel  </h1>
     <h1 class="animated fadeInDown slogan2"> An easy, cool and powerful Admin Panel based on Laravel framework </h1>
-    <a href="http://demo.serverfire.net" target="_blank" class="demo-link">Demo</a>
+    <a href="http://demo.serverfire.net/panel" target="_blank" class="demo-link">Demo</a>
     
     <div class="dashboard-box">
         
