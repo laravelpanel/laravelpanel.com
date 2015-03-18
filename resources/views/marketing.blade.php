@@ -28,6 +28,24 @@ home
         <div class="img img-right   animated fadeInUp">     <img src="assets/img/serverfire-panel-dashboard-3.jpg" /></div>
         
     </div>
+    <div id="social-buttons" class="hidden-print">
+      <div class="container">
+        <ul class="list-inline">
+          <li>
+            <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=serverfireteam&repo=panel&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+          </li>
+          <li>
+            <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=serverfireteam&repo=panel&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="102px" height="20px"></iframe>
+          </li>
+          <li class="follow-btn">
+            <a href="https://twitter.com/laravelpanel" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @laravelpanel</a>
+          </li>
+          <li class="tweet-btn hidden-phone">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://laravelpanel.com" data-text="Laravel Panel , everything you need for a admin panel" data-counturl="http://laravelpanel.com" data-count="horizontal" data-via="laravelpanel" data-related="serverfireteam:Creator of Laravel Panel">Tweet</a>
+          </li>
+        </ul>
+      </div>
+    </div>
     
 </section>
 
@@ -221,5 +239,5 @@ home
 
 
 
-
+<script src="http://platform.twitter.com/widgets.js"></script>
 @endsection
