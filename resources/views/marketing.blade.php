@@ -6,16 +6,6 @@ home
 
 @section('content')
 
-<nav id="slide-menu" class="slide-menu" role="navigation">
-    
-	<ul class="slide-main-nav">
-		@include('partials.main-nav')
-	</ul>
-
-</nav>
-
-
-
 <section class="col-xs-12 content-main">
     <h1 class="animated fadeInDown slogan1"> Laravel Panel  </h1>
     <h1 class="animated fadeInDown slogan2"> An easy, cool and powerful Admin Panel based on Laravel framework </h1>

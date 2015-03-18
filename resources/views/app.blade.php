@@ -34,14 +34,14 @@
     
 	
 	
-    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="{{ url('assets/css/main.css') }}">
+<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url('assets/css/main.css') }}">
 	
     
     <script src="{{ url('assets/bower_components/jquery/dist/jquery.min.js') }}"></script>
     <script>
         $(function(){
-            $('.content-main').height($(window).height()-100);
+            //$('.content-main').height($(window).height());
             $('.docs-wrapper').css('min-height',$(window).height()-200);
         })
     </script>
@@ -49,10 +49,6 @@
     
 </head>
 <body class="@yield('body-class', 'docs') language-php">
-
-                
-    
-    
                 <nav class="navbar  navbar-default">
                     <div class="container-fluid">
                       <div class="navbar-header">
