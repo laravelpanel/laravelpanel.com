@@ -31,7 +31,7 @@ home
             <a href="https://twitter.com/laravelpanel" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @laravelpanel</a>
           </li>
           <li class="tweet-btn hidden-phone">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://laravelpanel.com" data-text="Laravel Panel , everything you need for a admin panel" data-counturl="http://laravelpanel.com" data-count="horizontal" data-via="laravelpanel" data-related="serverfireteam:Creator of Laravel Panel">Tweet</a>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://laravelpanel.com" data-text="Laravel Panel , everything you need for a admin panel #laravelpanel" data-counturl="#laravelpanel" data-count="horizontal" data-via="laravelpanel" data-related="serverfireteam:Creator of Laravel Panel">Tweet</a>
           </li>
         </ul>
       </div>
