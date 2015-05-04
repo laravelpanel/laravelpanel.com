@@ -84,7 +84,7 @@ home
               <circle cx="50%" cy="775" r="24" stroke="black" stroke-width="0"  />
             </svg>
             <h3 class="feature-title">Language Based  </h3>
-            <h4 class="feature-desc">The Panel supports english, italian and armenian languages and it's really easy to add support for your native language</h4>
+            <h4 class="feature-desc">The Panel supports english, italian, spanish and armenian languages and it's really easy to add support for your native language</h4>
         
         
         
