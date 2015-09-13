@@ -1,0 +1,6 @@
+[Mon Mar 16 13:11:34 2015] [error] [client 178.79.181.163] Directory index forbidden by Options directive: /var/www/laravelPanelSite/
+[Sun Sep 06 20:05:19 2015] [error] [client 83.146.216.22] script not found or unable to stat: /var/www/cgi-bin/php
+[Sun Sep 06 20:05:19 2015] [error] [client 83.146.216.22] script not found or unable to stat: /var/www/cgi-bin/php5
+[Sun Sep 06 20:05:20 2015] [error] [client 83.146.216.22] script not found or unable to stat: /var/www/cgi-bin/php-cgi
+[Sun Sep 06 20:05:21 2015] [error] [client 83.146.216.22] script not found or unable to stat: /var/www/cgi-bin/php.cgi
+[Sun Sep 06 20:05:21 2015] [error] [client 83.146.216.22] script not found or unable to stat: /var/www/cgi-bin/php4
