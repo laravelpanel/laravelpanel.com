@@ -1,0 +1,13 @@
+- Setup
+    - [Automatic Installation](/docs/master/automatic-installation)
+    - [Manual Installation](/docs/master/manual-installation)
+    - [Dashboard Guide](/docs/master/dashboard-guide)
+- CRUD
+    - [CRUD Commands](/docs/master/crud-commands)
+    - [CRUD Fields](/docs/master/crud-fields)
+    - [CRUD Custom Fields](/docs/master/crud-custom-fields)
+- Development of Panel
+    - [Add Module to Panel](/docs/master/create-package)
+    - [Customize the Admin Template](/docs/master/customize-admin-template)
+- FAQ
+    - [FAQ](/docs/master/faq)

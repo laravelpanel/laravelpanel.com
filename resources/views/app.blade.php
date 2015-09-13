@@ -66,7 +66,17 @@
                         
                         <ul class="nav navbar-nav navbar-right">
                           <li><a href="http://demo.serverfire.net/panel" target="_blank">Demo </a></li>
-                          <li><a href="{{ url('/docs') }}">Documention </a></li>
+                         
+                          <li class="dropdown"><a href="{{ url('/docs') }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Documention <span class="caret"></span> </a>
+
+                            <ul class="dropdown-menu">
+                              <li>{!! $index !!}</li>
+
+</ul>
+
+
+
+                          </li>
                           <li><a href="{{ url('/#our-team') }}">About Us </a></li>
                         </ul>
                       </div><!--/.nav-collapse -->
@@ -80,20 +90,15 @@
     </footer>
     
 
-	<script src="{{ url('assets/js/laravel.js') }}"></script>
+
 	<script src="{{ url('assets/bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 	<script src="{{ url('assets/bower_components/jquery-waypoints/lib/jquery.waypoints.min.js') }}"></script>
 	<script src="{{ url('assets/js/viewport-units-buggyfill.js') }}"></script>
     
-    <script type="text/javascript" src="{{ url('assets/syntaxhighlighter/scripts/shCore.js') }}"></script>
-    <script type="text/javascript" src="{{ url('assets/syntaxhighlighter/scripts/shAutoloader.js') }}"></script>
-    <script type="text/javascript" src="{{ url('assets/syntaxhighlighter/scripts/shBrushPhp.js') }}"></script>
-    <script type="text/javascript" src="{{ url('assets/syntaxhighlighter/scripts/shBrushBash.js') }}"></script>
-    <link href="{{ url('assets/syntaxhighlighter//styles/shCore.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ url('assets/syntaxhighlighter//styles/shThemeDefault.css') }}" rel="stylesheet" type="text/css" />
-    <script type="text/javascript">
-         SyntaxHighlighter.all()
-    </script>
+    <script type="text/javascript" src="{{ url('assets/js/prism.js') }}"></script>
+
+    <link href="{{ url('assets/css/prism.css') }}" rel="stylesheet" type="text/css" />
+
     
     <script src="{{ url('assets/js/script.js') }}"></script>
     

@@ -93,4 +93,20 @@ class DocsController extends Controller {
 		];
 	}
 
+	/**
+	 * marketing
+	 *
+	 * @return Response
+	 */
+	protected function marketing()
+	{
+
+		
+
+		return view('marketing', [
+			'index' => $this->docs->getIndex('master'),
+		]);
+
+	}
+
 }
