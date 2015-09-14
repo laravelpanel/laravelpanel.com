@@ -1,0 +1,17 @@
+- Setup
+    - [Automatic Installation](/docs/master/automatic-installation)
+    - [Manual Installation](/docs/master/manual-installation)
+    - [Update](/docs/master/update)
+    - [Dashboard Guide](/docs/master/dashboard-guide)
+- CRUD
+    - [CRUD Commands](/docs/master/crud-commands)
+    - [CRUD Fields](/docs/master/crud-fields)
+    - [CRUD Custom Fields](/docs/master/crud-custom-fields)
+    - [CRUD Field Validation](/docs/master/crud-field-validation)
+- Development of Panel
+    - [Add Module to Panel](/docs/master/create-package)
+    - [Customize the Admin Template](/docs/master/customize-admin-template)
+    - [Add A Customized Controller and View](/docs/master/customized-controller-view)
+    - [Overriding the Language Files](/docs/master/override-lang-files)
+- FAQ
+    - [FAQ](/docs/master/faq)

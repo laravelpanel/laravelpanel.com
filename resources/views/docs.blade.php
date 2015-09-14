@@ -1,25 +1,21 @@
 @extends('app')
 
 @section('content')
-<nav id="slide-menu" class="slide-menu" role="navigation">
-	
-	
 
-	<div class="slide-docs-nav">
-		<h2>Documentation</h2>
-		{!! $index !!}
+
+
+<div class="container-fluid">
+    <div class="row">
+		<div class="col-sm-3 col-md-2 sidebar">
+		  {!! $index !!}
+		</div>
+
+		<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+			<article>
+				{!! $content !!}
+			</article>
+		</div>
 	</div>
-
-</nav>
-
-<div class="docs-wrapper container">
-
-	<section class="sidebar">
-		{!! $index !!}
-	</section>
-
-	<article>
-		{!! $content !!}
-	</article>
 </div>
 @endsection
+
