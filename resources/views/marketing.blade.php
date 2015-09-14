@@ -84,7 +84,7 @@ home
               <circle cx="50%" cy="775" r="24" stroke="black" stroke-width="0"  />
             </svg>
             <h3 class="feature-title">Language Based  </h3>
-            <h4 class="feature-desc">The Panel supports English, Italian, Spanish , French  and Armenian languages and it's really easy to add support for your native language</h4>
+            <h4 class="feature-desc">The Panel supports English, Italian, Spanish , French , Persian  and Armenian languages and it's really easy to add support for your native language</h4>
         
         
         
@@ -104,14 +104,14 @@ home
         <div class="col-xs-12 col-md-6 step animated delay-1">
             <div class="col-xs-2 col-md-1 num">1</div>
             <div class="col-xs-10 text">
-                 First you need to create a laravel 5 (or laravel 4.2) project.<br>
+                 First you need to create a laravel 5.1  project.<br>
                 Add our package to require section of composer<br>
                 And run the composer update command, the package and its dependencies will be installed.
             </div>
             <div class="col-xs-12 col-md-11 col-xs-offset-0 col-md-offset-0"><pre class="brush:php;auto-links:false;toolbar:false" contenteditable="false">&lt;?php
         {
             "require": {
-                "serverfireteam/panel": "1.2.*"
+                "serverfireteam/panel": "1.3.*"
             },
         }
             </pre></div>
