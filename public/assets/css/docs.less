@@ -5,24 +5,37 @@
 /* Hide for mobile, show later */
 .sidebar {
   display: none;
+  margin: 0 12px;
+
+  p{
+    margin: 17px 0 0;
+    color: #EB7F00;
+  }
   ul{
-    padding: 9px 14px;
+    padding: 7px 0px;
+  }
+  li{
+    list-style: none;
   }
 
 }
 .docs{
-    background-color: #191b28;
+    background-color: #102637;
     .navbar{
         margin-bottom: 0; 
     }
     .main{
         background-color: #fff;
         padding-bottom: 100px;
+        min-height: 600px;
     }
     font-family: 'Fira Sans', 'Source Sans Pro', Helvetica, Arial, sans-serif;
     font-size: 14px;
     h1,h2,h3{
-      color: #793862;
+      color: #1695A3;
+    }
+    h2{
+      font-size: 23px;
     }
 }
 @media (min-width: 768px) {
@@ -34,14 +47,12 @@
     display: block;
     padding: 20px;
     overflow-x: hidden;
-    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-    border-right: 1px solid #eee;
-    
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */   
     color: #fff;
     bottom: 64px;
   }
   .sidebar a{
-    color: #C1C1C1;
+    color: #fff;
   }
 }
 

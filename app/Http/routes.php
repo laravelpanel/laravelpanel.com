@@ -1,5 +1,6 @@
 <?php
-
+use Illuminate\Http\Request;
+use App\support;
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -23,8 +24,24 @@ function markdown($text) {
 	return (new ParsedownExtra)->text($text);
 }
 
-
-
 Route::get('docs', 'DocsController@showRootPage');
 Route::get('docs/{version}/{page?}', 'DocsController@show');
 Route::get('/', 'DocsController@marketing');
+
+Route::post('email-support',function(Request $request){
+	$name = $request->input('name');
+	$email = $request->input('email');
+
+	$support = new support;
+    $support->name = $name;
+    $support->email = $email;
+
+    $support->save();
+	Cache::tags(['people', 'email-support'])->forever($email, $name);
+
+	Mail::send('emails.support', ['name' => $name,'email'=>$email], function ($m) use ($name,$email) {
+    	$m->to($email, $name)->subject('Ali from LaravelPanel');
+    });
+	return view('support');
+
+});

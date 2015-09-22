@@ -1,233 +1,292 @@
-@extends('app')
-
-@section('body-class')
-home
-@endsection
-
-@section('content')
-
-<section class="col-xs-12 content-main">
-    <h1 class="animated fadeInDown slogan1"> Laravel Panel  </h1>
-    <h1 class="animated fadeInDown slogan2"> An easy, cool and powerful Admin Panel based on Laravel framework </h1>
-    <a href="http://demo.serverfire.net/panel" target="_blank" class="demo-link">Demo</a>
-    
-    <div class="dashboard-box">
-        
-        <div class="img img-left    animated fadeInUp">      <img src="assets/img/serverfire-panel-dashboard-1.jpg" /></div>
-        <div class="img img-center  animated fadeInUpBig">    <img src="assets/img/serverfire-panel-dashboard-2.jpg" /></div>
-        <div class="img img-right   animated fadeInUp">     <img src="assets/img/serverfire-panel-dashboard-3.jpg" /></div>
-        
-    </div>
-    <div id="social-buttons" class="hidden-print">
-      <div class="container">
-        <ul class="list-inline">
-          <li>
-            <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=serverfireteam&repo=panel&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
-          </li>
-          <li>
-            <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=serverfireteam&repo=panel&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="102px" height="20px"></iframe>
-          </li>
-          <li class="follow-btn">
-            <a href="https://twitter.com/laravelpanel" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @laravelpanel</a>
-          </li>
-          <li class="tweet-btn hidden-phone">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://laravelpanel.com" data-text="Laravel Panel , everything you need for a admin panel #laravelpanel" data-counturl="#laravelpanel" data-count="horizontal" data-via="laravelpanel" data-related="serverfireteam:Creator of Laravel Panel">Tweet</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    
-</section>
-
-
-<section class="col-xs-12 feature-page">
-    <br><br><br>
-    <h4 class="animated fadeInDown slogan1">  Every powerful project needs an admin panel which should be easy, beautiful and customizable </h1>
-    
-    <h3 class="animated fadeInDown slogan1">  So ... Why use Laravel Panel ? </h1>
-    
-    <div class="container feature-holder">
-        
-        
-            <svg class="feature-line-svg w1" height="210" width="100%" viewBox="0 0 800 800">
-              <line class="path"   x1="50%" y1="10" x2="50%" y2="800" stroke-linecap="butt" style="stroke-width:1px;width:1px;" />
-              <circle cx="50%" cy="775" r="24" stroke="black" stroke-width="0"  />
-            </svg>
-            <h3 class="feature-title"> Built-in Admin Interface </h3>
-            <h4 class="feature-desc">Login, Logout, Change Password, Dashboard, Forgot Password</h4>
-        
-        
-            
-        
-            <svg class="feature-line-svg  w2" height="210" width="100%" viewBox="0 0 800 800">
-              <line class="path"   x1="50%" y1="10" x2="50%" y2="800" stroke-linecap="butt" style="stroke-width:1px;width:1px;" />
-              <circle cx="50%" cy="775" r="24" stroke="black" stroke-width="0"  />
-            </svg>
-            <h3 class="feature-title">CRUD Generator </h3>
-            <h4 class="feature-desc">Easy to add entity and its CRUD with a simple command</h4>
-        
-        
-        
-        
-            <svg class="feature-line-svg  w3" height="210" width="100%" viewBox="0 0 800 800">
-              <line class="path"   x1="50%" y1="10" x2="50%" y2="800" stroke-linecap="butt" style="stroke-width:1px;width:1px;" />
-              <circle cx="50%" cy="775" r="24" stroke="black" stroke-width="0"  />
-            </svg>
-            <h3 class="feature-title">Import/Export  </h3>
-            <h4 class="feature-desc">import/export records of each entity</h4>
-        
-        
-        
-        
-            <svg class="feature-line-svg w4" height="210" width="100%" viewBox="0 0 800 800">
-              <line class="path"   x1="50%" y1="10" x2="50%" y2="800" stroke-linecap="butt" style="stroke-width:1px;width:1px;" />
-              <circle cx="50%" cy="775" r="24" stroke="black" stroke-width="0"  />
-            </svg>
-            <h3 class="feature-title">Language Based  </h3>
-            <h4 class="feature-desc">The Panel supports English, Italian, Spanish , French , Persian  and Armenian languages and it's really easy to add support for your native language</h4>
-        
-        
-        
-            
-        
-        </div>
-        
-    <div class="gap col-xs-hidden"></div>
-</section>
-
-
-    <!---------install-------->
-    <div class="install-page" id="installing">
-        
-        <div class="heading-title"><h2>Installation</h2></div>
-        
-        <div class="col-xs-12 col-md-6 step animated delay-1">
-            <div class="col-xs-2 col-md-1 num">1</div>
-            <div class="col-xs-10 text">
-                 First you need to create a laravel 5.1  project.<br>
-                Add our package to require section of composer<br>
-                And run the composer update command, the package and its dependencies will be installed.
-            </div>
-            <div class="col-xs-12 col-md-11 col-xs-offset-0 col-md-offset-0"><pre class="brush:php;auto-links:false;toolbar:false" contenteditable="false">&lt;?php
-        {
-            "require": {
-                "serverfireteam/panel": "1.3.*"
-            },
-        }
-            </pre></div>
-        </div>
-         
-        <div class="col-xs-12 col-md-6 step animated delay-3">
-            <div class="col-xs-2 col-md-1 num">2</div>
-            <div class="col-xs-10 text">
-                 Add the ServiceProvider of the package to the list of providers in the config/app.php file
-            </div>
-            <div class="col-xs-12 col-md-11 col-xs-offset-0 "><pre class="brush:php;auto-links:false;toolbar:false" contenteditable="false">&lt;?php
-        'providers' => array(
-          'Serverfireteam\Panel\PanelServiceProvider'
-        )
-            </pre></div>
-        </div>
-         
-        <div class="clearfix"></div>
-        <div class="col-xs-12 col-md-6 step animated delay-5">
-            <div class="col-xs-2 col-md-1 num">3</div>
-            <div class="col-xs-10 text">
-                 Run the following command in order to migrate and publish configs, views and assets.
-            </div>
-            <div class="col-xs-12 col-md-11 col-xs-offset-0 col-md-offset-0"><pre class="brush:bash;auto-links:false;toolbar:false" contenteditable="false">
-            
-            
-            php artisan panel:install
-            </pre></div>
-        </div>
-        
-        <div class="col-xs-12 col-md-6 step animated delay-7">
-            <div class="col-xs-2 col-md-1 num">4</div>
-            <div class="col-xs-10 text">
-                 Go to your domain.com/panel and you can login with the following username and password 
-            </div>
-            <div class="col-xs-12 col-md-11 col-xs-offset-0 col-md-offset-0"><pre class="brush:bash;auto-links:false;toolbar:false" contenteditable="false">
-            user        : admin@change.me
-            password    : 12345
-            </pre></div>
-        </div>
-        
-    </div>
-    
-    <div class="gap col-xs-hidden"></div>
-    
-    
-     <!---------build CRUD-------->
-    <div class="install-page">
-        
-        <div class="heading-title"><h2>Build the CRUD</h2></div>
-        <div class="col-xs-12 col-md-6 col-xs-offset-0 col-md-offset-3 step animated delay-5">
-            <div class="col-xs-2 col-md-1 num">1</div>
-            <div class="col-xs-10 text">
-                 You can run just a single command to build a CRUD :
-            </div>
-            <div class="col-xs-12 col-md-11 col-xs-offset-0 col-md-offset-0"><pre class="brush:bash;auto-links:false;toolbar:false" contenteditable="false">
-            
-            
-            php artisan panel:crud entity-name
-            </pre></div>
-        </div>
-        <div class="clear-fix"></div>
-        
-        
-    </div>
-
-    
-<br><br><br><br><br><br><br><br>
-<div class="team-box ">
-    <a name="our-team"></a>
-    <div class="heading-title"><h2 >Our Team</h2></div>
-    <div class="clear-fix"></div>
-        <div class="row ">
-            
-            <div class="team-holder col-xs-12 col-xs-offset-0  col-md-3 col-md-offset-0 ">
-                <div class="bg-holder col-xs-12 col-md-8 col-md-offset-2"><div class="bg"></div>
-                    <img class="img-responsive" src="assets/img/hamid-reza-salimian.jpg" />
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>{{ isset($title) ? $title . ' - ' : null }}LaravelPanel</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" href="assets/css/normalize.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="assets/css/flexslider.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/queries.css">
+    <link rel="stylesheet" href="assets/css/etline-font.css">
+    <link rel="stylesheet" href="assets/bower_components/animate.css/animate.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body id="top">
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <section class="hero">
+        <section class="navigation">
+            <header>
+                <div class="header-content">
+                    <div class="logo"><a href="#"><img src="assets/img/logo-light.png" alt="laravelpanel logo"></a></div>
+                    <div class="header-nav">
+                        <nav>
+                            <ul class="primary-nav">
+                                <li class="dropdown"><a href="{{ url('/docs') }}" >Documention </a>
+                                </li>
+                                <li><a href="https://github.com/serverfireteam/panel">Githup repo</a></li>
+                                <li><a href="/docs/master/contributing">Contributing</a>
+                            </ul>
+                            <ul class="member-actions">
+                                <li><a href="/docs/master/get-started" class="login">Get started</a></li>
+                                <li><a href="http://demo.serverfire.net/panel" class="btn-white btn-small">Try our demo</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="navicon">
+                        <a class="nav-toggle" href="#"><span></span></a>
+                    </div>
                 </div>
-                <div class="title col-xs-12">Hamid Reza Salimian</div>
-                <div class="desc col-xs-12">Front-End Developer</div>
-            </div>
-            
-            <div class="team-holder col-xs-12 col-xs-offset-0  col-md-3 col-md-offset-0 ">
-                <div class="bg-holder col-xs-12 col-md-8 col-md-offset-2"><div class="bg"></div>
-                    <img class="img-responsive" src="assets/img/ali-aboutalebi.jpg" />
+            </header>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="hero-content text-center">
+                        <h1>Rapid development , Save time!</h1>
+                        <p class="intro">LaravelPanel completes your development cycle with a set of Modern toolkits</p>
+                        <a href="http://demo.serverfire.net/panel" class="btn btn-fill btn-large btn-margin-right">Try our demo</a> <a href="/docs/master/get-started" class="btn btn-accent btn-large">Get started</a>
+                    </div>
                 </div>
-                <div class="title col-xs-12">Ali Reza Aboutalebi</div>
-                <div class="desc col-xs-12">Web Developer</div>
             </div>
-            
-            <div class="team-holder col-xs-12 col-xs-offset-0  col-md-3 col-md-offset-0 ">
-                <div class="bg-holder col-xs-12 col-md-8 col-md-offset-2"><div class="bg"></div>
-                    <img class="img-responsive" src="assets/img/siavash-izadkhasti.jpg" />
-                </div>
-                <div class="title col-xs-12">Siavash Izadkhasti</div>
-                <div class="desc col-xs-12">Web Developer</div>
-            </div>
-            
-            <div class="team-holder col-xs-12 col-xs-offset-0  col-md-3 col-md-offset-0 ">
-                <div class="bg-holder col-xs-12 col-md-8 col-md-offset-2"><div class="bg"></div>
-                    <img class="img-responsive" src="assets/img/alenoosh-baghumian.jpg" />
-                </div>
-                <div class="title col-xs-12">Alenoosh Baghumian</div>
-                <div class="desc col-xs-12">Web Developer</div>
-            </div>
-            
-            
-            
         </div>
-        
-    
-</div>
+        <div class="down-arrow floating-arrow"><a href="#features"><i class="fa fa-angle-down"></i></a></div>
+    </section>
+    <section class="intro section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 intro-feature">
+                    <div class="intro-icon">
+                        <span data-icon="&#xe031;" class="icon"></span>
+                    </div>
+                    <div class="intro-content">
+                        <h5>CRUD </h5>
+                        <p>Have create, read, update and delete with just one command on our models.text, select box, checkbox , text editor , datetime, image , autocomplete , tag ,colorpicker and more </p>
+                    </div>
+                </div>
+                <div class="col-md-4 intro-feature">
+                    <div class="intro-icon">
+                        <span data-icon="&#xe01d;" class="icon"></span>
+                    </div>
+                    <div class="intro-content">
+                        <h5>Modern Admin </h5>
+                        <p>Everything you need for administration of  website or app , dasboard , search , settings , ordering, filters, pagination and more.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 intro-feature">
+                    <div class="intro-icon">
+                        <span data-icon="&#xe01a;" class="icon"></span>
+                    </div>
+                    <div class="intro-content last">
+                        <h5>Extension system</h5>
+                        <p>You can have your own custom column types .
+                        You can also create laravelPanel-based packages,
+                        for instance an e-commerce pacakge with LaravelPanel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features section-padding" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-7">
+                    <div class="feature-list">
+                        <h3>Less repeated code more result</h3>
+                        <p>Spend your time on quality code not in lot of same code over and over .</p>
+                        <ul class="features-stack">
+                            <li class="feature-item">
+                                <div class="feature-icon">
+                                    <span data-icon="&#xe036;" class="icon"></span>
+                                </div>
+                                <div class="feature-content">
+                                    <h5>Easily Customised</h5>
+                                    <p>Easily customise LaravelPanel to suit your website , mobile aplications or product. Take advantage of Laravel and bring your product to life.</p>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-icon">
+                                    <span data-icon="&#xe05a;" class="icon"></span>
+                                </div>
+                                <div class="feature-content">
+                                    <h5>Import/Export</h5>
+                                    <p>You can import data from Excel files and overwrite the existing data or simply keep both along with each other. export to excel or other formats </p>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-icon">
+                                    <span data-icon="&#xe052;" class="icon"></span>
+                                </div>
+                                <div class="feature-content">
+                                    <h5>Fully translatable</h5>
+                                    <p>The LaravelPanel supports English, Italian, Spanish , French , Persian and Armenian languages and it's really easy to add support for your native language.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="device-showcase">
+            <div class="devices">
+                <div class="ipad-wrap wp1"></div>
+                <div class="iphone-wrap wp2"></div>
+            </div>
+        </div>
+        <div class="responsive-feature-img"><img src="img/devices.png" alt="responsive devices"></div>
+    </section>
+    <section class="features-extra section-padding" id="assets">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="feature-list">
+                        <h4>Access to all your local files and your Cloud storage space</h4>
+                        <p>Simply set your credentials ones, then you can select any of your files from your local storge or cloude storage such as Amazon S3, Rackspace, FTP, local files, Dropbox, Sftp, Azure Blob Storage </p>
+                        <a href="/docs/master/elfinder" class="btn btn-ghost btn-accent btn-small">Read about it</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="macbook-wrap wp3"></div>
+        <div class="responsive-feature-img"><img src="img/macbook-pro.png" alt="responsive devices"></div>
+    </section>
+    <section class="hero-strip section-padding">
+        <div class="container">
+            <div class="col-md-12 text-center">
+                <h2>" <b>Insanity</b> is doing the same thing over and over and expecting different results. "</h2>
+                <small>Albert Einstein</small>
+                <p>Save your time with LaravelPanel.</p>
+                <a href="/docs/master/get-started" class="btn btn-ghost btn-accent btn-large">Use LaravelPanel!</a>
+                <div class="logo-placeholder floating-logo"><img src="assets/img/speed.png" ></div>
+            </div>
+        </div>
+    </section>
+    <section class="blog-intro section-padding" id="blog">
+        <div class="container text-center">
+            <h2> <b class="counter">30</b>% Grow each months in past year</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <h1 class="counter downloads">--</h1>
+                    <span>Downloads</span>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="counter commit">--</h1>
+                    <span>Commit</span>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="counter stars">--</h1>
+                    <span>Githup Stars</span>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="counter forks">--</h2>
+                    <span>Forks</span>
+                </div>
+                                
 
 
+            </div>
+        </div>
+    </section>
 
+    <section class="testimonial-slider section-padding text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Our team :</h2>
+                    <div class="team">Loading...</div>
+                    <div class="clearfix"></div>
+                    <h2>Contributors of laravelpanel : ( <a href="/docs/master/contributing">Join us</a> )</h2>
+                    <div class="contributors">Loading...</div>
 
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sign-up section-padding text-center" id="download">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h3>Get Email support for free</h3>
+                    <p>We are going to support you on the proccess of using laravelPanel .</p>
+                    <form class="signup-form" action="/email-support" method="POST" role="form">
+                        <div class="form-input-group">
+                            <i class="fa fa-male"></i><input type="text" class="" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-input-group">
+                            <i class="fa fa-envelope"></i><input type="email" name="email" class="" placeholder="Enter your email" required>
+                        </div>
+                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                        <button type="submit" class="btn-fill sign-up-btn">Get Email support for free</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="to-top">
+        <div class="container">
+            <div class="row">
+                <div class="to-top-wrap">
+                    <a href="#top" class="top"><i class="fa fa-angle-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="footer-links">
+                            <ul class="footer-group">
+                                <li class="dropdown"><a href="{{ url('/docs') }}">Documention  </a></li>
+                                <li><a href="https://github.com/serverfireteam/panel">Githup repo</a></li>
+                                <li><a href="/docs/master/get-started">Get started</a>
+                                <li><a href="/docs/master/contributing">Contributing</a>
+                            </ul>
+                        <p>Copyright © 2015 <a href="http://serverfire.net">Serverfire.net</a><br>
+                        Crafted with <span class="fa fa-heart pulse2"></span> by <a href="http://www.peterfinlan.com/">Peter Finlan</a>.</p>
+                    </div>
+                </div>
+                <div class="social-share">
 
-<script src="http://platform.twitter.com/widgets.js"></script>
-@endsection
+                    <p>Follow laravelpanel </p>
+                    <a href="https://twitter.com/laravelpanel" class="twitter-share"><i class="fa fa-twitter"></i></a> 
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="assets/bower_components/retina.js/dist/retina.js"></script>
+    <script src="assets/js/jquery.fancybox.pack.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/jquery.flexslider-min.js"></script>
+    <script src="assets/bower_components/classie/classie.js"></script>
+    <script src="assets/bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
+</body>
+</html>

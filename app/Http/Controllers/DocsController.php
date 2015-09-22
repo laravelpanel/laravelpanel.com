@@ -59,7 +59,6 @@ class DocsController extends Controller {
 		if (is_null($content)) {
 			abort(404);
 		}
-
 		return view('docs', [
 			'title' => count($title) ? $title->text() : null,
 			'index' => $this->docs->getIndex($version),
