@@ -57,7 +57,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="hero-content text-center">
-                        <h1>Save Time with Rapid Development !</h1>
+                        <h2>Save Time with Rapid Development !</h2>
                         <p class="intro">LaravelPanel completes your development cycle with a set of modern toolkits</p>
                         <a href="http://demo.serverfire.net/panel" class="btn btn-fill btn-large btn-margin-right">Try our demo</a> <a href="/docs/master/get-started" class="btn btn-accent btn-large">Get started</a>
                     </div>
