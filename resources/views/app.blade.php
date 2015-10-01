@@ -67,7 +67,7 @@
                         <ul class="nav navbar-nav navbar-right">
                           <li><a href="http://demo.serverfire.net/panel" target="_blank">Demo </a></li>
                          
-                          <li class="dropdown"><a href="{{ url('/docs') }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Documention <span class="caret"></span> </a>
+                          <li class="dropdown"><a href="{{ url('/docs') }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span> </a>
                             <ul class="dropdown-menu"><li>{!! $index !!}</li></ul>
                           </li>
                           <li><a href="{{ url('/#our-team') }}">About Us </a></li>

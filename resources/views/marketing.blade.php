@@ -36,9 +36,9 @@
                     <div class="header-nav">
                         <nav>
                             <ul class="primary-nav">
-                                <li class="dropdown"><a href="{{ url('/docs') }}" >Documention </a>
+                                <li class="dropdown"><a href="{{ url('/docs') }}" >Documentation </a>
                                 </li>
-                                <li><a href="https://github.com/serverfireteam/panel">Githup repo</a></li>
+                                <li><a href="https://github.com/serverfireteam/panel">Github repo</a></li>
                                 <li><a href="/docs/master/contributing">Contributing</a>
                             </ul>
                             <ul class="member-actions">
@@ -57,8 +57,8 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="hero-content text-center">
-                        <h1>Rapid development , Save time!</h1>
-                        <p class="intro">LaravelPanel completes your development cycle with a set of Modern toolkits</p>
+                        <h1>Save Time with Rapid Development !</h1>
+                        <p class="intro">LaravelPanel completes your development cycle with a set of modern toolkits</p>
                         <a href="http://demo.serverfire.net/panel" class="btn btn-fill btn-large btn-margin-right">Try our demo</a> <a href="/docs/master/get-started" class="btn btn-accent btn-large">Get started</a>
                     </div>
                 </div>
@@ -74,8 +74,8 @@
                         <span data-icon="&#xe031;" class="icon"></span>
                     </div>
                     <div class="intro-content">
-                        <h5>CRUD </h5>
-                        <p>Have create, read, update and delete with just one command on our models.text, select box, checkbox , text editor , datetime, image , autocomplete , tag ,colorpicker and more </p>
+                        <h5>CRUD</h5>
+                        <p>LaravelPanel lets you create a simple CRUD (create, read, update and delete) by just one command. It offers various field types such as text, select box, checkbox, text editor, datetime, image, autocomplete, tag, colorpicker and more.</p>
                     </div>
                 </div>
                 <div class="col-md-4 intro-feature">
@@ -83,8 +83,8 @@
                         <span data-icon="&#xe01d;" class="icon"></span>
                     </div>
                     <div class="intro-content">
-                        <h5>Modern Admin </h5>
-                        <p>Everything you need for administration of  website or app , dasboard , search , settings , ordering, filters, pagination and more.</p>
+                        <h5>Modern Admin</h5>
+                        <p>It provides everything you need for administration of a website or an app such as a modern dashboard, fast and mobile-friendly interface.</p>
                     </div>
                 </div>
                 <div class="col-md-4 intro-feature">
@@ -92,10 +92,8 @@
                         <span data-icon="&#xe01a;" class="icon"></span>
                     </div>
                     <div class="intro-content last">
-                        <h5>Extension system</h5>
-                        <p>You can have your own custom column types .
-                        You can also create laravelPanel-based packages,
-                        for instance an e-commerce pacakge with LaravelPanel.</p>
+                        <h5>Extensible System</h5>
+                        <p>You can have your own custom column types. You can also create LaravelPanel-based packages, for instance an e-commerce package with LaravelPanel.</p>
                     </div>
                 </div>
             </div>
@@ -106,16 +104,16 @@
             <div class="row">
                 <div class="col-md-5 col-md-offset-7">
                     <div class="feature-list">
-                        <h3>Less repeated code more result</h3>
-                        <p>Spend your time on quality code not in lot of same code over and over .</p>
+                        <h3>Less Redundant and More Efficient Code</h3>
+                        <p>Spend your time on quality code not on the same code over and over again.</p>
                         <ul class="features-stack">
                             <li class="feature-item">
                                 <div class="feature-icon">
                                     <span data-icon="&#xe036;" class="icon"></span>
                                 </div>
                                 <div class="feature-content">
-                                    <h5>Easily Customised</h5>
-                                    <p>Easily customise LaravelPanel to suit your website , mobile aplications or product. Take advantage of Laravel and bring your product to life.</p>
+                                    <h5>Easily Customized</h5>
+                                    <p>Easily customize LaravelPanel to suit the needs of your website, mobile applications or products. Take advantage of Laravel and bring your product to life.</p>
                                 </div>
                             </li>
                             <li class="feature-item">
@@ -124,7 +122,7 @@
                                 </div>
                                 <div class="feature-content">
                                     <h5>Import/Export</h5>
-                                    <p>You can import data from Excel files and overwrite the existing data or simply keep both along with each other. export to excel or other formats </p>
+                                    <p>You can import data from Excel files and overwrite the existing data or simply keep both along with each other. You can also export to excel or other formats.</p>
                                 </div>
                             </li>
                             <li class="feature-item">
@@ -132,8 +130,8 @@
                                     <span data-icon="&#xe052;" class="icon"></span>
                                 </div>
                                 <div class="feature-content">
-                                    <h5>Fully translatable</h5>
-                                    <p>The LaravelPanel supports English, Italian, Spanish , French , Persian and Armenian languages and it's really easy to add support for your native language.</p>
+                                    <h5>Fully Translatable</h5>
+                                    <p>The LaravelPanel supports English, Italian, Spanish, French, Persian and Armenian languages and it's really easy to add support for your native language.</p>
                                 </div>
                             </li>
                         </ul>
@@ -155,7 +153,7 @@
                 <div class="col-md-5">
                     <div class="feature-list">
                         <h4>Access to all your local files and your Cloud storage space</h4>
-                        <p>Simply set your credentials ones, then you can select any of your files from your local storge or cloude storage such as Amazon S3, Rackspace, FTP, local files, Dropbox, Sftp, Azure Blob Storage </p>
+                        <p>Simply set your credentials once then you can select any of your files from your local storge or cloud storage such as Amazon S3, Rackspace, FTP, local files, Dropbox, Sftp or Azure Blob Storage.</p>
                         <a href="/docs/master/elfinder" class="btn btn-ghost btn-accent btn-small">Read about it</a>
                     </div>
                 </div>
@@ -189,7 +187,7 @@
                 </div>
                 <div class="col-md-3">
                     <h1 class="counter stars">--</h1>
-                    <span>Githup Stars</span>
+                    <span>Github Stars</span>
                 </div>
                 <div class="col-md-3">
                     <h1 class="counter forks">--</h2>
@@ -222,7 +220,7 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
                     <h3>Get Email support for free</h3>
-                    <p>We are going to support you on the proccess of using laravelPanel .</p>
+                    <p>We are going to support you on the proccess of using laravelPanel.</p>
                     <form class="signup-form" action="/email-support" method="POST" role="form">
                         <div class="form-input-group">
                             <i class="fa fa-male"></i><input type="text" class="" name="name" placeholder="Enter your full name" required>
@@ -252,8 +250,8 @@
                 <div class="col-md-7">
                     <div class="footer-links">
                             <ul class="footer-group">
-                                <li class="dropdown"><a href="{{ url('/docs') }}">Documention  </a></li>
-                                <li><a href="https://github.com/serverfireteam/panel">Githup repo</a></li>
+                                <li class="dropdown"><a href="{{ url('/docs') }}">Documentation  </a></li>
+                                <li><a href="https://github.com/serverfireteam/panel">Github repo</a></li>
                                 <li><a href="/docs/master/get-started">Get started</a>
                                 <li><a href="/docs/master/contributing">Contributing</a>
                             </ul>
@@ -263,7 +261,7 @@
                 </div>
                 <div class="social-share">
 
-                    <p>Follow laravelpanel </p>
+                    <p>Follow LaravelPanel </p>
                     <a href="https://twitter.com/laravelpanel" class="twitter-share"><i class="fa fa-twitter"></i></a> 
                 </div>
             </div>
