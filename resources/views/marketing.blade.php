@@ -131,7 +131,7 @@
                                 </div>
                                 <div class="feature-content">
                                     <h5>Fully Translatable</h5>
-                                    <p>The LaravelPanel supports English, Italian, Spanish, French, Polish, Persian and Armenian languages and it's really easy to add support for your native language.</p>
+                                    <p>The LaravelPanel supports English, Italian, Spanish, French, Polish, Persian , Portuguese language. and Armenian languages and it's really easy to add support for your native language.</p>
                                 </div>
                             </li>
                         </ul>
