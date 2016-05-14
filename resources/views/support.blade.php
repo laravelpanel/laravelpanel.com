@@ -25,10 +25,7 @@
 
     <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
       <article>
-        <h2>Thank you for registering for e-mail support.</h2>
-        <p>You should receive e-mail from support@serverfire.net</p>
-        <p>From now on you can get e-mail support from <a href="mailto:support@serverfire.net">support@serverfire.net</a></p>
-
+        <h2>Thank you for subscribe.</h2>
         <br><br>
         <a href="/" class="btn btn-ghost btn-accent btn-small">Back!</a>
       </article>

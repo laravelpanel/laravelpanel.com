@@ -39,9 +39,9 @@ Route::post('email-support',function(Request $request){
     $support->save();
 	Cache::tags(['people', 'email-support'])->forever($email, $name);
 
-	Mail::send('emails.support', ['name' => $name,'email'=>$email], function ($m) use ($name,$email) {
+	/*Mail::send('emails.support', ['name' => $name,'email'=>$email], function ($m) use ($name,$email) {
     	$m->to($email, $name)->subject('Ali from LaravelPanel');
-    });
+    });*/
 	return view('support');
 
 });

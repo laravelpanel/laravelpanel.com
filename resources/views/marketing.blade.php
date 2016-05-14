@@ -219,8 +219,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
-                    <h3>Get Email support for free</h3>
-                    <p>We are going to support you on the proccess of using laravelPanel.</p>
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to  laravelPanel newsletter.</p>
                     <form class="signup-form" action="/email-support" method="POST" role="form">
                         <div class="form-input-group">
                             <i class="fa fa-male"></i><input type="text" class="" name="name" placeholder="Enter your full name" required>
@@ -229,7 +229,7 @@
                             <i class="fa fa-envelope"></i><input type="email" name="email" class="" placeholder="Enter your email" required>
                         </div>
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                        <button type="submit" class="btn-fill sign-up-btn">Get Email support for free</button>
+                        <button type="submit" class="btn-fill sign-up-btn">Subscribe</button>
                     </form>
                 </div>
             </div>
