@@ -255,8 +255,8 @@
                                 <li><a href="/docs/master/get-started">Get started</a>
                                 <li><a href="/docs/master/contributing">Contributing</a>
                             </ul>
-                        <p>Copyright © 2015 <a href="http://serverfire.net">Serverfire.net</a><br>
-                        Crafted with <span class="fa fa-heart pulse2"></span> by <a href="http://www.peterfinlan.com/">Peter Finlan</a>.</p>
+                        <p>Copyright © 2016 <a href="http://serverfire.net">Serverfire.net</a><br>
+                        Template Crafted with <span class="fa fa-heart pulse2"></span> by <a href="http://www.peterfinlan.com/">Peter Finlan</a>.</p>
                     </div>
                 </div>
                 <div class="social-share">
